@@ -27,6 +27,22 @@ Este manual interno de dos páginas, desarrollado para el departamento administr
 
 El documento resuelve la ausencia de directrices concretas sobre IA generativa en entornos corporativos, ofreciendo un flujo de trabajo reproducible, plantillas de prompts y una checklist de verificación. Está pensado para personal sin formación jurídica avanzada, facilitando la adopción de buenas prácticas de forma inmediata y comprensible.
 
+Además del manual en Google Docs, este repositorio incluye un **manual técnico** (`MANUAL_TECNICO.md`) que documenta la arquitectura, los módulos y las decisiones de diseño del proyecto, así como la licencia correspondiente.
+
+---
+
+## 🖼️ Vista previa
+
+A continuación se muestran capturas del manual y del documento normativo:
+
+<p align="center">
+  <img src="screenshots/Captura_AI_Act_1.png" alt="Vista previa del AI Act - Parte 1" width="750" />
+</p>
+
+<p align="center">
+  <img src="screenshots/Captura_AI_Act_2.png" alt="Vista previa del AI Act - Parte 2" width="750" />
+</p>
+
 ---
 
 ## ✨ Funcionalidades
@@ -107,8 +123,12 @@ Cumple el Artículo 50 del AI Act y utiliza datos ficticios conforme al RGPD.
 
 ```
 manual-ia-rgpd-ai-act/
-├── README.md          # Documentación principal del manual
-└── LICENSE            # Licencia MIT
+├── README.md              # Documentación principal del manual
+├── MANUAL_TECNICO.md      # Manual técnico del proyecto (arquitectura y decisiones)
+├── LICENSE                # Licencia MIT
+└── screenshots/           # Capturas de pantalla del documento
+    ├── Captura_AI_Act_1.png
+    └── Captura_AI_Act_2.png
 ```
 
 ---
@@ -120,7 +140,7 @@ manual-ia-rgpd-ai-act/
 | **Microsoft Copilot** | M365 corporativo | Redacción asistida en Word |
 | **ChatGPT** | Business/Enterprise | Generación y revisión de contenido |
 | **Google Docs** | En línea | Publicación y acceso al manual |
-| **Markdown** | - | Formato del README del repositorio |
+| **Markdown** | - | Formato del README y manual técnico |
 | **AEPD** | - | Verificación de cumplimiento RGPD |
 
 ---
