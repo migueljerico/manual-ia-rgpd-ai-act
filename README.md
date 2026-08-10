@@ -35,13 +35,13 @@ Además del manual en Google Docs, este repositorio incluye un **manual técnico
 
 A continuación se muestran capturas del manual y del documento normativo:
 
-<p align="center">
-  <img src="screenshots/Captura_AI_Act_1.png" alt="Vista previa del AI Act - Parte 1" />
-</p>
 
-<p align="center">
+  <img src="screenshots/Captura_AI_Act_1.png" alt="Vista previa del AI Act - Parte 1" />
+
+
+
   <img src="screenshots/Captura_AI_Act_2.png" alt="Vista previa del AI Act - Parte 2" />
-</p>
+
 
 ---
 
