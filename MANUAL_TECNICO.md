@@ -1,7 +1,7 @@
 # MANUAL_TÉCNICO — Manual Interno IA: RGPD y AI Act Art. 50
 
 **Repositorio:** `migueljerico/manual-ia-rgpd-ai-act`  
-**Versión del manual:** 1.0  
+**Versión del manual:** 1.1  
 **Fecha de actualización:** 10 de agosto de 2026  
 **Estado:** Completado
 
@@ -9,9 +9,14 @@
 
 ## 1. Descripción general
 
-El proyecto **Manual Interno IA — RGPD y AI Act Art. 50** es un repositorio de documentación que sirve como índice y punto de acceso a un manual de cumplimiento normativo elaborado para la empresa ficticia **AM Associates**. El manual, de 2 páginas, está diseñado para empleados administrativos y establece pautas obligatorias para el uso de herramientas de IA generativa (Microsoft Copilot y ChatGPT) conforme al Reglamento General de Protección de Datos (RGPD) y al Artículo 50 del AI Act de la Unión Europea (Reglamento UE 2024/1689), cuya obligación de marcado es efectiva desde agosto de 2026.
+El proyecto **Manual Interno IA — RGPD y AI Act Art. 50** es un repositorio de documentación que sirve como índice y punto de acceso a un manual de cumplimiento normativo elaborado para la empresa ficticia **AM Associates**. El manual, de 2 páginas, está diseñado para empleados administrativos y establece pautas obligatorias para el uso de herramientas de IA generativa (Microsoft Copilot y ChatGPT) conforme al Reglamento General de Protección de Datos (RGPD) y al Artículo 50 del AI Act de la Unión Europea (Reglamento UE 2024/1689), cuya obligación de marcado es efectiva desde **agosto de 2026**.
 
-El repositorio no contiene código fuente de aplicación, sino que está compuesto por un archivo `README.md` (documentación principal) y un archivo `LICENSE` (licencia MIT). El manual completo está alojado externamente en Google Docs y se accede mediante un enlace desde el `README.md`.
+El repositorio no contiene código fuente de aplicación, sino que está compuesto por tres archivos:
+- `README.md` — Documentación principal, con acceso al manual y resumen normativo.
+- `MANUAL_TECNICO.md` — El presente documento técnico.
+- `LICENSE` — Licencia MIT.
+
+El manual completo está alojado externamente en Google Docs y se accede mediante un enlace desde el `README.md`.
 
 ---
 
@@ -24,6 +29,7 @@ El proyecto sigue una estructura de **documentación informativa** en lugar de u
 │                  CAPA DE PRESENTACIÓN                       │
 │  README.md (documentación en GitHub)                        │
 │  Enlace externo → Documento Google Docs (manual completo)   │
+│  Badges de estado (shields.io)                              │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -34,6 +40,8 @@ El proyecto sigue una estructura de **documentación informativa** en lugar de u
 │  • Obligaciones AI Act Art. 50                              │
 │  • Prompt CO-STAR                                           │
 │  • Flujo de trabajo (antes/durante/después)                 │
+│  • Checklist de cumplimiento                                │
+│  • Cláusula de marcado obligatorio                          │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -51,18 +59,26 @@ No existe interacción con servicios web, bases de datos ni endpoints. El flujo 
 
 ## 3. Módulos y componentes
 
-El repositorio contiene dos archivos raíz, cada uno con una responsabilidad específica:
+El repositorio contiene tres archivos raíz, cada uno con una responsabilidad específica:
 
 ### 3.1 `README.md`
 
 | Campo | Detalle |
 |---|---|
-| **Responsabilidad** | Documento principal del repositorio. Presenta el proyecto, resume el marco normativo, describe el flujo de trabajo y proporciona el enlace al manual completo. |
-| **Estructura interna** | Secciones: badges de estado, acceso al documento, descripción, marco normativo (RGPD y AI Act), flujo de trabajo, prompt CO-STAR, cláusula de marcado. |
-| **Elementos clave** | Tabla de principios RGPD, tabla de obligaciones de marcado AI Act, tabla de flujo de trabajo, prompt CO-STAR en formato Markdown. |
+| **Responsabilidad** | Documento principal del repositorio. Presenta el proyecto, resume el marco normativo, describe el flujo de trabajo, proporciona el enlace al manual completo y muestra un prompt CO-STAR listo para usar. |
+| **Estructura interna** | Secciones: badges de estado, acceso/demo, descripción, funcionalidades, instalación, uso (con prompt CO-STAR), marco normativo (RGPD y AI Act), flujo de trabajo, checklist y cláusula de marcado. |
+| **Elementos clave** | Tabla de principios RGPD, tabla de obligaciones de marcado AI Act, tabla de flujo de trabajo (antes/durante/después), prompt CO-STAR en formato Markdown, checklist de cumplimiento y cláusula estándar. |
 | **Enlace externo** | URL de Google Docs: `https://docs.google.com/document/d/1Xw2HOFEUWyGn7wxkvXeXEs0AWgNf5zlm4mDL-GEh8_I/edit` |
+| **Badges** | 8 badges de estado (Markdown, Estado, Licencia, RGPD, AI Act, Copilot, ChatGPT, Acceso) que dependen de shields.io. |
 
-### 3.2 `LICENSE`
+### 3.2 `MANUAL_TECNICO.md`
+
+| Campo | Detalle |
+|---|---|
+| **Responsabilidad** | Documentación técnica del proyecto. Describe arquitectura, módulos, despliegue y limitaciones. Es el presente archivo. |
+| **Estructura interna** | Secciones: descripción general, arquitectura, módulos, APIs, variables de entorno, guía de despliegue, limitaciones y mejoras, referencias normativas y licencia. |
+
+### 3.3 `LICENSE`
 
 | Campo | Detalle |
 |---|---|
@@ -101,8 +117,9 @@ Al ser un proyecto de documentación estática, el "despliegue" consiste en publ
 ### 6.2 Publicación del repositorio (si se parte desde cero)
 
 1. Crear un nuevo repositorio en GitHub con el nombre `manual-ia-rgpd-ai-act`.
-2. Subir los archivos `README.md` y `LICENSE` al repositorio.
+2. Subir los archivos `README.md`, `MANUAL_TECNICO.md` y `LICENSE` al repositorio.
 3. Verificar que el enlace de Google Docs del `README.md` sea accesible públicamente (o con permisos de la organización AM Associates).
+4. Comprobar que los badges de estado se renderizan correctamente (dependen de servicios externos de shields.io).
 
 ### 6.3 Clonación y visualización local
 
@@ -111,7 +128,7 @@ git clone https://github.com/migueljerico/manual-ia-rgpd-ai-act.git
 cd manual-ia-rgpd-ai-act
 ```
 
-Abrir el archivo `README.md` en cualquier editor de Markdown o visualizarlo directamente en GitHub.
+Abrir los archivos `.md` en cualquier editor de Markdown o visualizarlos directamente en GitHub.
 
 ### 6.4 Acceso al manual completo
 
@@ -123,6 +140,7 @@ Abrir el archivo `README.md` en cualquier editor de Markdown o visualizarlo dire
 
 - Confirmar que el enlace no devuelve error 404.
 - Comprobar que los badges del `README.md` se renderizan correctamente (dependen de servicios externos de shields.io).
+- Validar que el prompt CO-STAR y las tablas de cumplimiento se muestran correctamente en la vista previa de GitHub.
 
 ---
 
@@ -137,6 +155,7 @@ Abrir el archivo `README.md` en cualquier editor de Markdown o visualizarlo dire
 | **Sin control de versiones del contenido** | El documento de Google Docs no tiene un historial de versiones integrado con el repositorio, lo que dificulta el seguimiento de cambios normativos. |
 | **Alcance limitado** | Solo cubre los requisitos básicos de RGPD y AI Act Art. 50; no incluye normativas sectoriales (salud, educación, etc.) ni otros artículos del AI Act. |
 | **Formato no automatizable** | No hay scripts ni plantillas reutilizables para generar documentos similares. |
+| **Prompt CO-STAR incompleto** | El `README.md` incluye un prompt de ejemplo, pero no se ofrece una plantilla descargable en formato `.txt` o `.md`. |
 
 ### 7.2 Mejoras propuestas
 
@@ -146,6 +165,7 @@ Abrir el archivo `README.md` en cualquier editor de Markdown o visualizarlo dire
 4. **Ampliar la cobertura normativa** con otros artículos del AI Act (sistemas de alto riesgo, transparencia, etc.) y guías específicas por sector.
 5. **Crear una plantilla de prompt reutilizable** en formato `.txt` o `.md` descargable.
 6. **Incluir un historial de cambios** (CHANGELOG) para reflejar las actualizaciones del manual.
+7. **Añadir una checklist interactiva** en HTML o un script que permita marcar los elementos de cumplimiento.
 
 ---
 
