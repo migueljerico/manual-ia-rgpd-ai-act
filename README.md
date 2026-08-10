@@ -1,18 +1,19 @@
 # 📋 Manual Interno IA — RGPD y AI Act Art. 50 · AM Associates
 
-![Copilot](https://img.shields.io/badge/Microsoft%20Copilot-Word-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-Business-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-Documentación-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-Publicado-4CAF50?style=for-the-badge)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-yellow?style=for-the-badge)
 ![RGPD](https://img.shields.io/badge/RGPD-Cumplimiento%20UE-003399?style=for-the-badge)
 ![AI Act](https://img.shields.io/badge/AI%20Act-Art.%2050%20UE%202024%2F1689-CC0000?style=for-the-badge)
-![Estado](https://img.shields.io/badge/Estado-Completado-4CAF50?style=for-the-badge)
-![Tipo](https://img.shields.io/badge/Práctica-Normativa%20IA-FF6B6B?style=for-the-badge)
+![Copilot](https://img.shields.io/badge/Microsoft%20Copilot-Word-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-Business-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-> **Ejercicio Práctico — Manual Interno de IA y Cumplimiento Normativo**  
-> Guía de 2 páginas para empleados administrativos de la empresa ficticia **AM Associates**
+> *Guía de 2 páginas para empleados administrativos de la empresa ficticia **AM Associates**.*  
+> *Ejercicio práctico de cumplimiento normativo en el uso de IA generativa.*
 
 ---
 
-## 🔗 Acceso al Documento
+## 🔗 Acceso / Demo
 
 [![Ver Manual Completo](https://img.shields.io/badge/📄%20Ver%20Manual%20Completo-Google%20Docs-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/1Xw2HOFEUWyGn7wxkvXeXEs0AWgNf5zlm4mDL-GEh8_I/edit)
 
@@ -20,43 +21,45 @@
 
 ---
 
-## 📋 Descripción del Proyecto
+## 📋 Descripción
 
-Manual interno de 2 páginas elaborado para el departamento administrativo de **AM Associates** que establece las pautas, obligaciones y herramientas para el uso seguro y legal de ChatGPT y Microsoft Copilot. Cubre los requisitos del **Reglamento General de Protección de Datos (RGPD)** y las nuevas obligaciones de marcado del **Artículo 50 del AI Act (UE 2024/1689)**, obligatorio desde agosto de 2026.
+Este manual interno de dos páginas, desarrollado para el departamento administrativo de **AM Associates**, establece pautas claras, obligaciones y herramientas para el uso seguro y legal de ChatGPT y Microsoft Copilot. Su objetivo es mitigar riesgos legales asociados al tratamiento de datos personales y garantizar el cumplimiento del **Reglamento General de Protección de Datos (RGPD)** de la UE y del **Artículo 50 del AI Act (UE 2024/1689)**, cuyas obligaciones de marcado son exigibles desde **agosto de 2026**.
+
+El documento resuelve la ausencia de directrices concretas sobre IA generativa en entornos corporativos, ofreciendo un flujo de trabajo reproducible, plantillas de prompts y una checklist de verificación. Está pensado para personal sin formación jurídica avanzada, facilitando la adopción de buenas prácticas de forma inmediata y comprensible.
 
 ---
 
-## ⚖️ Marco Normativo
+## ✨ Funcionalidades
 
-### RGPD — Reglamento General de Protección de Datos
-
-| Principio | Obligación práctica |
+| Funcionalidad | Descripción |
 |---|---|
-| **Minimización de datos** | Nunca introducir nombres reales, DNI, emails, historiales ni datos de salud. Usar siempre datos ficticios ("Empleado A", "Cliente X") |
-| **Base legal** | Solo tratar datos personales con consentimiento válido, obligación legal o contrato justificado. Sin base legal → no usar IA |
-| **Transparencia** | Informar siempre del uso de IA y de que el contenido es sintético |
-| **Herramientas permitidas** | Únicamente Copilot en M365 y ChatGPT Business/Enterprise. Los planes Free y Plus **no son adecuados** para datos de clientes, alumnos o pacientes |
-
-### AI Act Art. 50 — Obligaciones de Marcado (obligatorio desde agosto 2026)
-
-- ✔ Añadir **marcado visible** en todo contenido sintético: `"Contenido generado con IA"`, `"Imagen generada con IA"`, `"Texto asistido por IA"`
-- ✔ Aplicar **marcado técnico** (C2PA / Content Credentials)
-- ✔ Mantener **registro interno**: fecha, herramienta usada, prompt y resultado generado
-- ✔ Incluir en documentos internos la **cláusula de marcado obligatorio** (ver sección de marcado)
+| **Marco normativo RGPD** | Principios clave (minimización, base legal, transparencia) y su aplicación práctica. |
+| **Obligaciones del Art. 50 AI Act** | Marcado visible y técnico (C2PA/Content Credentials) de contenido sintético, registro interno y cláusula obligatoria. |
+| **Flujo de trabajo en Copilot** | Fases Antes/Durante/Después para un uso seguro de Copilot en Word. |
+| **Plantilla de prompt CO‑STAR** | Prompt listo para usar en Copilot/ChatGPT, garantizando cumplimiento RGPD y Art. 50. |
+| **Checklist de cumplimiento** | Lista verificable de acciones para asegurar la conformidad normativa. |
+| **Cláusula de marcado obligatorio** | Texto estándar para incluir en documentos generados con IA. |
 
 ---
 
-## 🖥️ Flujo de Trabajo — Cómo usar Copilot en Word
+## ⚙️ Instalación
 
-| Fase | Acciones obligatorias |
-|---|---|
-| **Antes** | Revisar si hay datos personales → anonimizar o no usar IA. Confirmar que trabajas en el tenant M365 de AM Associates |
-| **Durante** | Indicar en el prompt el cumplimiento de RGPD + Art. 50. Pedir que no invente datos y que marque el contenido como sintético. Activar razonamiento paso a paso |
-| **Después** | Revisar sesgos y fuentes. Añadir marcado visible. Guardar prompt y salida en el registro interno |
+Este proyecto no requiere instalación, ya que es un documento de referencia. Para acceder a los archivos localmente, clona el repositorio:
+
+```bash
+git clone https://github.com/migueljerico/manual-ia-rgpd-ai-act.git
+cd manual-ia-rgpd-ai-act
+```
+
+También puedes abrir el documento en línea desde la sección [Acceso / Demo](#-acceso--demo).
 
 ---
 
-## 🧩 Prompt CO-STAR para Copilot / ChatGPT
+## 🚀 Uso
+
+### Ejemplo de Prompt CO‑STAR
+
+Copia y adapta este prompt para usar con Copilot o ChatGPT:
 
 ```
 Context · Soy empleado administrativo de AM Associates.
@@ -81,43 +84,44 @@ Few-shot: "Texto generado con IA para uso interno."
           "Imagen generada con IA para fines formativos."
 ```
 
----
+### Cláusula de Marcado Obligatorio
 
-## ✅ Checklist de Cumplimiento
-
-- [ ] No subir datos reales al modelo de IA
-- [ ] Usar únicamente Copilot en M365 o ChatGPT Business/Enterprise
-- [ ] Añadir marcado visible en todo contenido generado
-- [ ] Verificar fuentes, sesgos y posibles alucinaciones
-- [ ] Registrar prompt utilizado y resultado obtenido
-- [ ] Consultar al DPO ante cualquier duda sobre base legal
-
----
-
-## 📌 Cláusula de Marcado Obligatorio
-
-> Copiar y pegar en todos los documentos generados con IA:
+Incluye esta cláusula en todos los documentos generados con IA:
 
 ```
 Este documento contiene contenido generado con IA.
 Cumple el Artículo 50 del AI Act y utiliza datos ficticios conforme al RGPD.
 ```
 
+### Flujo de trabajo en Copilot (resumen)
+
+| Fase | Acciones obligatorias |
+|---|---|
+| **Antes** | Revisar si hay datos personales → anonimizar o no usar IA. Confirmar que trabajas en el tenant M365 de AM Associates. |
+| **Durante** | Indicar en el prompt el cumplimiento de RGPD + Art. 50. Pedir que no invente datos y que marque el contenido como sintético. Activar razonamiento paso a paso. |
+| **Después** | Revisar sesgos y fuentes. Añadir marcado visible. Guardar prompt y salida en el registro interno. |
+
 ---
 
-## 🛠️ Herramientas utilizadas
+## 📁 Estructura del proyecto
 
-| Herramienta | Uso | Requisito de plan |
+```
+manual-ia-rgpd-ai-act/
+├── README.md          # Documentación principal del manual
+└── LICENSE            # Licencia MIT
+```
+
+---
+
+## 🛠️ Tecnologías
+
+| Herramienta | Versión/Detalle | Uso en el proyecto |
 |---|---|---|
-| **Microsoft Copilot** | Redacción asistida en Word (M365) | M365 corporativo |
-| **ChatGPT** | Generación y revisión de contenido | Business o Enterprise |
-| **AEPD** | Verificación de cumplimiento RGPD | — |
-
----
-
-## 👥 Equipo
-
-Proyecto elaborado en pareja por **Alonso y Miguel** como práctica del programa de formación en Análisis de Datos e IA.
+| **Microsoft Copilot** | M365 corporativo | Redacción asistida en Word |
+| **ChatGPT** | Business/Enterprise | Generación y revisión de contenido |
+| **Google Docs** | En línea | Publicación y acceso al manual |
+| **Markdown** | - | Formato del README del repositorio |
+| **AEPD** | - | Verificación de cumplimiento RGPD |
 
 ---
 
@@ -127,6 +131,14 @@ Este ejercicio forma parte del programa de formación en **Análisis de Datos e 
 
 ---
 
-<p align="center">
-  <sub>Desarrollado por <a href="https://github.com/migueljerico">@migueljerico</a> · 2026</sub>
-</p>
+## 👥 Equipo
+
+Proyecto elaborado en pareja por **Alonso y Miguel** como práctica del programa de formación en Análisis de Datos e IA.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+<p align="center">Creado por <a href="https://github.com/migueljerico">@migueljerico</a> y documentado por QwenCloud (deepseek-v4-flash-0731) desde la App Asistente de IA · 2026</p>
